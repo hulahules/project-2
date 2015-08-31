@@ -50,6 +50,8 @@ table {
 
 /*all photos from pixabay, open source*/
 
+
+
 @font-face {
     font-family: 'blackjackregular';
     src: url('black_jack-webfont.eot');
@@ -68,43 +70,28 @@ body {
   font-family: Arial;
 }
 
-.container {
-  max-width: 1300px;
-  width: 100%;
-  margin: 0 auto;
-  overflow: auto;
-}
-
-
 header {
   margin-left: 11%;
 }
 
 header h1 {  
-  font-size: 60px;
-  margin: 10px;
+  font-size: 4rem;
+  margin: 1%;
   font-family: 'blackjackregular', Arial;
 }
 
 header h4 {
-  margin-left: 10px;
-  margin-top: 20px;
-  margin-bottom: 5px;
+  margin: 2% 0 0.5% 0.5%;
 }
 
 nav {
-  margin-left: 11%;
+  margin: 0 11% 0 11%;
   background: rgb(72, 160, 123);
-  margin-right: 11%;
-
 }
 
 nav ul li {
   float: left;
-  margin-right: 50px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 50px 20px 20px;
   list-style-type: none;
   color: white;
 }
@@ -112,6 +99,7 @@ nav ul li {
 li a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 .clearfix:after {
@@ -120,37 +108,39 @@ li a {
     clear: both;
 }
 
+/*.main-container {
+  max-width: 1000px;
+  width: 78%;
+  height: 70%;
+  margin: 0 11% 0 11%;
+  overflow: auto;
+}
+*/
 article img {
-  margin-left: 11%;
-  margin-top: 10px;
   float: left;
-  width: 55%;
-  height: auto;
+  margin: 0 0 0 11%;
+  width: 57%;
+/*  height: %;*/
 }
 
 aside img {
   float: right;
-  width: 20%;
-  margin-top: 10px;
+  width: 21%;
   margin-right: 11%;
   position: relative;
-  height: auto;
+  transition: 0.3s;
+/*  height: 33.5%;*/
 }
 
 #second_aside {
-  height: auto;
+  float: right;
+  position: relative;
+  margin-right: 11%;
 }
 
 footer {
-  height: 20px;
+  height: 10%;
   background: rgb(72, 160, 123);
-  margin: 10px 11% 20px 11%;
+  margin: 0 11% 1% 11%;
 }
 
-footer h4{
-  margin-left: 50px;
-}
-
-li {
-  cursor: pointer;
-}
