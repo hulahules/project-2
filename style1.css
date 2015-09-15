@@ -104,33 +104,13 @@ li a {
     clear: both;
 }
 
-article {
-  float: left;
-  overflow: hidden;
-  width: 73%;
-  margin: 0;
-}
-
 article img {
-  width: 100%;
-  margin-bottom: 0;
-}
-
-aside {
-  overflow: hidden;
-  float: left;
-  width: 27%;
-}
-
-aside img {
-  width: 100%;
-}
-
-footer {
-  height: 48px;
-  background: rgb(72, 160, 123);
-  margin-bottom: 1%;
-  margin-top: 0;
+  height: 150px;
+  width: 20%;
+  margin: 2%;
+  margin-left: 8%;
+  border-style: double;
+  border-width: 5px;
 }
 
 nav a {
@@ -179,18 +159,9 @@ nav a:hover {
     color: white;
   }
 
-   aside {
-    display: none;
-   }
-
-  article {
-  float: left;
-  overflow: hidden;
-  width: 100%;
-  }
-
   article img {
-  width: 100%;
+    width: 50%;
+    margin-left: 20%;
   }
 
 }
