@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*all photos from pixabay, open source*/
+.container {
+  margin: 0% 11%;
+}
+
+@font-face {
+    font-family: 'blackjackregular';
+    src: url('fonts/black_jack-webfont.eot');
+    src: url('fonts/black_jack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/black_jack-webfont.woff') format('woff'),
+         url('fonts/black_jack-webfont.ttf') format('truetype'),
+         url('fonts/black_jack-webfont.svg#blackjackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {  
+  background: #F0FFF0;
+  /*Did not like the look of background image/*
+  /*background-image: url("http://topwalls.net/wp-content/uploads/2012/03/green-leaves-nature.jpg");*/
+  font-family: Arial;
+}
+
+header h1 {  
+  font-size: 4rem;
+  margin: 1%;
+  font-family: 'blackjackregular', Arial;
+}
+
+header h4 {
+  margin: 2% 0 0.5% 0.5%;
+}
+
+nav {
+  background: rgb(72, 160, 123);
+}
+
+nav ul li {
+  float: left;
+  margin: 3%;
+  list-style-type: none;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article {
+  float: left;
+  overflow: hidden;
+  width: 73%;
+  margin: 0;
+}
+
+article div {
+  border: 10px double;
+  width: 97%;
+  margin-bottom: 0;
+  height: 412px;
+}
+
+p {
+  margin: 10%;
+  line-height: 1.5;
+}
+
+aside {
+  overflow: hidden;
+  float: left;
+  width: 27%;
+}
+
+aside img {
+  width: 100%;
+}
+
+footer {
+  height: 48px;
+  background: rgb(72, 160, 123);
+  margin-bottom: 1%;
+  margin-top: 0;
+}
+
+nav a {
+   transition: color 0.2s ease-in;
+ }
+
+nav a:hover {
+   color: rgb(240, 217, 175);
+}
+
+
+@media screen and (max-width: 550px) {
+
+  .container {
+    margin: 0;
+  }
+
+  aside {
+    display: none;
+  }
+
+  article {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  }
+
+  article img {
+  width: 100%;
+  }
+
+  nav ul li {
+    float: left;
+    margin: 1%;
+    list-style-type: none;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+   nav ul li {
+    float: left;
+    margin: 1%;
+    list-style-type: none;
+    color: white;
+  }
+
+   aside {
+    display: none;
+   }
+
+  article {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  }
+
+  article img {
+  width: 100%;
+  }
+
+}
+

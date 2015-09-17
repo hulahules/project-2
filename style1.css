@@ -128,10 +128,6 @@ nav a:hover {
     margin: 0;
   }
 
-  aside {
-    display: none;
-  }
-
   article {
   float: left;
   overflow: hidden;
